@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="Spr_oborud_2.xsd"> 
+
+<Pribor> <table border = "1"> <tr>
+<tr> <td> Приборы </td> <td> Информация</td></tr>
+<td> <table border="1"> <tr>
+<td>Код прибора</td>
+<td>Название прибора</td>
+</tr>
+<tr>
+
+
+
+<td><CodPribora>001</CodPribora></td>
+<td><NazvaniePribora>микроволновая печь</NazvaniePribora></td>
+</tr>
+
+<tr>
+<td><CodPribora>002</CodPribora></td>
+<td><NazvaniePribora>плойка</NazvaniePribora></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td><CodPribora>003</CodPribora></td>
+<td><NazvaniePribora>фен</NazvaniePribora></td>
+</tr>
+
+<tr>
+<td><CodPribora>004</CodPribora></td>
+<td><NazvaniePribora>утюг</NazvaniePribora></td>
+</tr>
+
+<tr>
+<td><CodPribora>005</CodPribora></td>
+<td><NazvaniePribora>утюжок</NazvaniePribora></td>
+</tr>
+
+</table>
+<td> <table border="1"> 
+<tr>
+<td>Тип прибора</td>
+<td>Дата производства</td>
+<td>Материально ответственное лицо</td>
+</tr>
+
+<tr>
+<td><TypePribora>электроприбор</TypePribora></td>
+<td><Data><DateProizvodstva>02.06.96</DateProizvodstva></Data></td>
+<td><MaterialnoOtvetstvennoeFace>производитель</MaterialnoOtvetstvennoeFace></td>
+</tr>
+
+<tr>
+<td><TypePribora>электроприбор</TypePribora></td>
+<td><Data><DateProizvodstva>02.06.96</DateProizvodstva></Data></td>
+<td><MaterialnoOtvetstvennoeFace>производитель</MaterialnoOtvetstvennoeFace></td>
+</tr>
+<tr>
+<td><TypePribora>электроприбор</TypePribora></td>
+<td><Data><DateProizvodstva>02.06.96</DateProizvodstva></Data></td>
+<td><MaterialnoOtvetstvennoeFace>производитель</MaterialnoOtvetstvennoeFace></td>
+</tr>
+<tr>
+<td><TypePribora>электроприбор</TypePribora></td>
+<td><Data><DateProizvodstva>02.06.96</DateProizvodstva></Data></td>
+<td><MaterialnoOtvetstvennoeFace>производитель</MaterialnoOtvetstvennoeFace></td>
+</tr>
+<tr>
+<td><TypePribora>электроприбор</TypePribora></td>
+<td><Data><DateProizvodstva>02.06.96</DateProizvodstva></Data></td>
+<td><MaterialnoOtvetstvennoeFace>производитель</MaterialnoOtvetstvennoeFace></td>
+</tr>
+
+
+
+
+</table>
+
+</Pribor>
+</Root>
