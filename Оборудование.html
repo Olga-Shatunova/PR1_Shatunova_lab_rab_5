@@ -1,0 +1,47 @@
+<html>
+<head>
+<style>
+table, th, td {
+border: 1px solid black;
+border-collapse:collapse;
+}
+th, td {
+padding: 5px;
+}
+</style>
+</head>
+<body>
+<script>
+	if (window.XMLHttpRequest) {
+	xmlhttp = new XMLHttpRequest();}
+	else {
+	xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");}
+	xmlhttp.open("GET", "Оборудование.xml", false);
+	xmlhttp.send();
+	xmlDoc = xmlhttp.responseXML;
+	var obotudovanie = xmlDoc.getElementsByTagName("obotudovanie");
+	for (i = 0; i < obotudovanie.length; i++)
+	{
+	document.write("<tr><td>");
+	document.write(obotudovanie[i].getElementsByTagName("CodPribora")[0].childNodes[0].nodeValue);
+	document.write("</td><td>");
+	document.write(obotudovanie[i].getElementsByTagName("NazvaniePribora")[0].childNodes[0].nodeValue);
+	document.write("</td></tr>");
+	
+	var info = obotudovanie[i].getElementsByTagName("info");
+	document.write("<table><tr><th>Тип прибора</th><th>Дата производства</th><th>Материально ответственное лицо</th></tr>");
+	for (j = 0; j < info.length; j++) {
+	   document.write("<tr><td>");
+document.write(info[j].getElementsByTagName("TypePribora")[0].childNodes[0].nodeValue);
+	document.write("</td><td>");
+document.write(info[j].getElementsByTagName("DateProizvodstva")[0].childNodes[0].nodeValue);
+	document.write("</td><td>");
+document.write(info[j].getElementsByTagName("MaterialnoOtvetstvennoeFace")[0].childNodes[0].nodeValue);
+	document.write("</td></tr>");
+	}
+	document.write("</table>"); 
+	}
+ 
+</script>
+</body>
+</html>
