@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+table, th, td {
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+th, td {
+	padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<script>
+	if (window.XMLHttpRequest) {
+	xmlhttp = new XMLHttpRequest();}
+	else {
+	xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");}
+	xmlhttp.open("GET", "Лекарства.xml", false);
+	xmlhttp.send();
+	xmlDoc = xmlhttp.responseXML;
+	document.write("<table><tr><th>Код лекарства</th><th>Название лекарства</th><th>Показания к применению</th><th>Еденица измерения</th><th>Количество в упаковке</th><th>Название производителя</th></tr>");
+	var x = xmlDoc.getElementsByTagName("Medicine");
+	for (i = 0; i < x.length; i++) {
+	    document.write("<tr><td>");
+document.write(x[i].getElementsByTagName("CodMedicine")[0].childNodes[0].nodeValue);
+	document.write("</td><td>");
+document.write(x[i].getElementsByTagName("NameMedicine")[0].childNodes[0].nodeValue);
+	document.write("</td></tr>");
+	
+	var a = x[i].getElementsByTagName("Indications");
+	document.write("<table><tr><th>Показания к применению</th><th>Единица измерения</th><th>Количество в упаковке</th><th>Названия производителя</th></tr>");
+	for (j = 0; j < a.length; j++){
+	document.write("<tr><td>");
+	
+
+document.write(a[j].getElementsByTagName("Indications")[0].childNodes[0].nodeValue);
+	document.write("</td><td>");
+document.write(a[j].getElementsByTagName("Unitofmeasure")[0].childNodes[0].nodeValue);
+	document.write("</td></tr>");
+document.write(a[j].getElementsByTagName("Number")[0].childNodes[0].nodeValue);
+	document.write("</td><td>");
+document.write(a[j].getElementsByTagName("manufacturerName")[0].childNodes[0].nodeValue);
+	document.write("</td><td>");
+    }
+    document.write("</table>");
+</script>
+
+</body>
+</html>
+
+
+
+
