@@ -6,7 +6,7 @@
 <xs:element name="Medicine" minOccurs="0" maxOccurs="unbounded">
 <xs:complexType>
 <xs:sequence>
-<xs:element name="information" minOccurs="0" maxOccurs="unbounded">
+<xs:element name="Info" minOccurs="0" maxOccurs="unbounded">
 <xs:complexType>
 <xs:sequence>
 <xs:element name="CodMedicine" type="xs:int" />
