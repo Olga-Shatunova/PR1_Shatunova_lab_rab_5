@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Root xmlns="Flower_prod"> 
+
+<Flower> <table border = "1"> <tr>
+<tr> <td> Цветы </td> <td> Информация о цветах </td></tr>
+
+<td> <table border="1"> <tr>
+<td>Код цветка</td>
+<td>Название цветка</td>
+</tr>
+
+<tr>
+
+
+<td><Codflower>001</Codflower></td>
+<td><NameFlower>Лилия</NameFlower></td>
+</tr>
+
+<tr>
+
+
+<td><Codflower>002</Codflower></td>
+<td><NameFlower>Гладиолус</NameFlower></td>
+</tr>
+
+<tr>
+
+<td><Codflower>003</Codflower></td>
+<td><NameFlower>Роза</NameFlower></td>
+</tr>
+
+<tr>
+
+<td><Codflower>004</Codflower></td>
+<td><NameFlower>Фиалка</NameFlower></td>
+</tr>
+
+<tr>
+
+<td><Codflower>005</Codflower></td>
+<td><NameFlower>Алоэ</NameFlower></td>
+</tr>
+
+</table>
+<td> <table border="1"> 
+<tr>
+<td>Сорт цветка</td>
+<td>Средняя высота</td>
+<td>Цветущий</td>
+<td>Дополнительная информация</td>
+</tr>
+
+<tr>
+
+<td><ClassFlower>Лилия регале</ClassFlower></td>
+<td><AverageHeight>15 см</AverageHeight></td>
+<td><Flowering>да</Flowering></td>
+<td><AdditionalInformation>Великолепный китайский вид - один из самых красивых и распространенных видов трубчатых лилий.Великолепный китайский вид - один из самых красивых и распространенных видов трубчатых лилий.</AdditionalInformation></td>
+</tr>
+
+<tr>
+
+<td><ClassFlower>Гладиолус византийский</ClassFlower></td>
+<td><AverageHeight>60 см</AverageHeight></td>
+<td><Flowering>да</Flowering></td>
+<td><AdditionalInformation>Произрастает на лесных опушках и лугах в Средиземноморье, передней и Малой Азии (Турции, Сирии, Иране).</AdditionalInformation></td>
+</tr>
+
+<tr>
+
+<td><ClassFlower>Английская роза</ClassFlower></td>
+<td><AverageHeight>90 см</AverageHeight></td>
+<td><Flowering>да</Flowering></td>
+<td><AdditionalInformation>Получена в результате скрещивания французской, дамасской, бурбонской и других роз с современными сортами чайно-гибридных роз и роз класса флорибунда.</AdditionalInformation></td>
+</tr>
+
+<tr>
+
+
+
+<td><ClassFlower>Фиалка алтайская</ClassFlower></td>
+<td><AverageHeight>20 см</AverageHeight></td>
+<td><Flowering>да</Flowering></td>
+<td><AdditionalInformation>Дико произрастает на Алтае, в Западной Сибирь, на юго-востоке Казахстана, в Тянь-Шане, Северо-Западном Китае. </AdditionalInformation></td>
+</tr>
+
+<tr>
+
+<td><ClassFlower>Алоэ остролистное</ClassFlower></td>
+<td><AverageHeight>10 см</AverageHeight></td>
+<td><Flowering>нет</Flowering></td>
+<td><AdditionalInformation>Листья изогнутые, покрытые беловатыми наростами и нчиваются тонкой ниткой.</AdditionalInformation></td>
+</tr>
+
+<table>
+</Flower>
+</Root>
