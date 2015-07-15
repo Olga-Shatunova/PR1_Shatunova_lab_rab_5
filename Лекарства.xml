@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="XSD4.xsd"> Лекарственные средства<!—обратите внимание на ссылку на xsd —> <br />
+<tr><Medicine> <table border="1">
+<td><CodMedicine>Код лекарства</CodMedicine></td>
+<td><NameMedicine>Название лекарства</NameMedicine></td>
+<td><Indications>Показания к применению</Indications></td>
+<td><Unitofmeasure>Еденица измерения</Unitofmeasure></td>
+<td><Number>Количество в упаковке</Number></td>
+<td><manufacturerName>Название производителя</manufacturerName></td>
+</tr>
+
+<tr>
+<td><CodMedicine>001</CodMedicine></td>
+<td><NameMedicine>Базирон</NameMedicine></td>
+<td><Indications>Для наружного применения</Indications></td>
+<td><Unitofmeasure>100 г.</Unitofmeasure></td>
+<td><Number>1 шт.</Number></td>
+<td><manufacturerName>Galderma.</manufacturerName></td>
+</tr>
+<tr>
+<td><CodMedicine>002</CodMedicine></td>
+<td><NameMedicine>Nise</NameMedicine></td>
+<td><Indications>Для внутреннего применения</Indications></td>
+<td><Unitofmeasure>90 г.</Unitofmeasure></td>
+<td><Number>10 шт.</Number></td>
+<td><manufacturerName>Др Редди`с.</manufacturerName></td>
+</tr>
+<tr>
+<td><CodMedicine>003</CodMedicine></td>
+<td><NameMedicine>Парацетамол</NameMedicine></td>
+<td><Indications>Для внутреннего применения</Indications></td>
+<td><Unitofmeasure>100 г.</Unitofmeasure></td>
+<td><Number>10 шт.</Number></td>
+<td><manufacturerName>Асфарма.</manufacturerName></td>
+</tr>
+<tr>
+<td><CodMedicine>004</CodMedicine></td>
+<td><NameMedicine>Ринза</NameMedicine></td>
+<td><Indications>Для внутреннего применения</Indications></td>
+<td><Unitofmeasure>100 г.</Unitofmeasure></td>
+<td><Number>10 шт.</Number></td>
+<td><manufacturerName>UNIQUE PHARMACEUTICAL Laboratories</manufacturerName></td></tr>
+<tr>
+<td><CodMedicine>005</CodMedicine></td>
+<td><NameMedicine>Феброфид</NameMedicine></td>
+<td><Indications>Для наружного применения</Indications></td>
+<td><Unitofmeasure>100 г.</Unitofmeasure></td>
+<td><Number>1 шт.</Number></td>
+<td><manufacturerName>Medana Pharma Terpol Group.</manufacturerName></td>
+</tr>
+</table>
+</Medicine>
+
+
+</Root>
