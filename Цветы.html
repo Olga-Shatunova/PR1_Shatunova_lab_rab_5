@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+table, th, td {
+   border: 1px solid black;
+   border-collapse:collapse;}
+th, td {
+   padding: 5px;}
+</style>
+
+</head>
+
+<body>
+
+<script>
+	if (window.XMLHttpRequest) {
+	   xmlhttp = new XMLHttpRequest();}
+	else {
+	   xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");}
+	xmlhttp.open("GET", "Цветы.xml", false);
+	xmlhttp.send();
+	xmlDoc = xmlhttp.responseXML;
+	var F = xmlDoc.getElementsByTagName("Flower");
+	for (i = 0; i < F.length; i++) {
+	document.write("<tr><td>");
+	document.write(F[i].getElementsByTagName("Codflower")[0].childNodes[0].nodeValue);
+	   document.write("</td><td>");
+	document.write(F[i].getElementsByTagName("NameFlower")[0].childNodes[0].nodeValue);
+	   document.write("</td></tr>");
+	var info = F[i].getElementsByTagName("info");
+	document.write("<table><tr><th>Сорт цветка</th><th>Средняя высота</th><th>Цветущий</th><th>\Дополнительная информация</th></tr>");
+	for (j = 0; j < info.length; j++){
+	document.write("<tr><td>");
+	document.write(information[j].getElementsByTagName("ClassFlower")[0].childNodes[0].nodeValue);
+	   document.write("</td><td>");
+	document.write(information[j].getElementsByTagName("AverageHeight")[0].childNodes[0].nodeValue);
+	   document.write("</td><td>");
+	document.write(information[j].getElementsByTagName("Flowering")[0].childNodes[0].nodeValue);
+	   document.write("</td></tr>");
+	document.write(information[j].getElementsByTagName("AdditionalInformation")[0].childNodes[0].nodeValue);
+	   document.write("</td></tr>");
+}
+document.write("</table>"); 
+}
+</script>
+
+</body>
+</html>
